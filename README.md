@@ -31,7 +31,7 @@
 
 1.  **Reponu klonlayın:**
     ```bash
-    git clone [https://github.com/abulfatoff/phantom.git](https://github.com/abulfatoff/phantom.git)
+    git clone https://github.com/abulfatoff/phantom
     cd phantom
     ```
 
