@@ -1,5 +1,56 @@
-⚡ PHANTOM - The Self-Healing Media StationPhantom is a high-performance, autonomous YouTube media downloader designed with a focus on reliability, portability, and premium user experience. It features a unique Self-Healing Engine that adapts to your operating system's age.💎 Niyə Phantom? (Premium Features)🛠️ Self-Healing Engine (Auto-Diagnostic): Proqram işə düşəndə FFmpeg mühərrikini yoxlayır. Əgər yoxdursa, sisteminizin Build Version-nu (məs: Windows 10 LTSC 2016 Build 14393) analiz edir və sisteminizlə 100% uyğun olan FFmpeg versiyasını avtomatik yükləyib qurur.✂️ Precision Clipping (Download Sections): Bütün videonu yükləməyə ehtiyac yoxdur. Sadəcə başlanğıc və bitiş vaxtını daxil edin; Phantom birbaşa o hissəni kəsib gətirir.📂 Native Explorer Bridge: Brauzer məhdudiyyətlərini aşaraq, yükləmə qovluğunu birbaşa Windows-un orijinal qovluq seçicisi (File Explorer) vasitəsilə təyin etmə imkanı.🚀 Premium App-Mode UI: Müstəqil Desktop tətbiqi hissi verən, tam ekran, təmiz və sürətli Vanilla JS interfeysi.⌨️ Intelligent Input Masking: Vaxt daxil edərkən (məs: 01:30) nöqtələri özü qoyur, səni əlavə düymə basmaqdan xilas edir.🧠 Texniki Analiz (Engineering Insight)Phantom sadəcə bir skript deyil. O, arxa planda aşağıdakı mühəndislik həllərini istifadə edir:XüsusiyyətTexnologiyaSəbəbBackendFastAPI / UvicornAşağı gecikmə və yüksək sürətli API rabitəsi.Engineyt-dlpƏn yeni YouTube alqoritmlərinə uyğunluq.OS Detectionsys.getwindowsversion()LTSC 2016 kimi köhnə sistemlərdə DLL xətalarını önləmək.UIVanilla JS / TailwindSıfır asılılıq (zero-dependency) və premium görünüş.🚀 Quraşdırma (Quick Start)Reponu klonlayın:Bashgit clone https://github.com/abulfatoff/phantom.git
-cd phantom
-Kitabxanaları quraşdırın:Bashpip install -r requirements.txt
-Zavodu işə salın:Bashpython backend.py
-📜 Lisenziya (License)Bu proyekt MIT License altında qorunur. Həm şəxsi, həm də kommersiya məqsədləri üçün istifadə etmək tamamilə sərbəstdir.👨‍💻 DeveloperMirsaid Abulfatofov (Miri) - Technology Enthusiast & Digital Creator"Complexity is a sign of weakness. Phantom is the art of simple power.
+# ⚡ PHANTOM - The Self-Healing Media Station
+
+![Python Version](https://img.shields.io/badge/python-3.8+-00FF41?style=for-the-badge&logo=python)
+![Platform Support](https://img.shields.io/badge/platform-Windows%20|%20Linux-00FF41?style=for-the-badge)
+
+**Phantom** is a high-performance, autonomous YouTube media downloader designed with a focus on reliability, portability, and premium user experience.
+
+---
+
+## 💎 Niyə Phantom? (Premium Features)
+
+* **🛠️ Self-Healing Engine:** Proqram işə düşəndə FFmpeg mühərrikini yoxlayır. Əgər yoxdursa, sisteminizin **Build Version**-nu (məs: LTSC 2016 Build 14393) analiz edir və ən uyğun versiyanı avtomatik qurur.
+* **✂️ Precision Clipping:** Bütün videonu yükləməyə ehtiyac yoxdur. Sadəcə vaxtı daxil edin, Phantom birbaşa o hissəni kəsib gətirir.
+* **📂 Native Explorer Bridge:** Brauzer məhdudiyyətlərini aşaraq, qovluğu birbaşa Windows-un orijinal qovluq seçicisi (**File Explorer**) ilə seçmə imkanı.
+* **🚀 Premium App-Mode UI:** Desktop tətbiqi hissi verən, tam ekran və sürətli Vanilla JS interfeysi.
+* **⌨️ Intelligent Input Masking:** Vaxt daxil edərkən (məs: `01:30`) nöqtələri özü qoyur.
+
+---
+
+## 🧠 Texniki Analiz (Engineering Insight)
+
+| Xüsusiyyət | Texnologiya | Səbəb |
+| :--- | :--- | :--- |
+| **Backend** | FastAPI / Uvicorn | Yüksək sürətli API rabitəsi. |
+| **Engine** | yt-dlp | Ən yeni YouTube alqoritmlərinə uyğunluq. |
+| **OS Detection** | `sys.getwindowsversion()` | Köhnə sistemlərdə DLL xətalarını önləmək. |
+
+---
+
+## 🚀 Quraşdırma (Quick Start)
+
+1.  **Reponu klonlayın:**
+    ```bash
+    git clone [https://github.com/abulfatoff/phantom.git](https://github.com/abulfatoff/phantom.git)
+    cd phantom
+    ```
+
+2.  **Kitabxanaları quraşdırın:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Zavodu işə salın:**
+    ```bash
+    python backend.py
+    ```
+
+---
+
+## 📜 Lisenziya (License)
+Bu proyekt **MIT License** altında qorunur.
+
+---
+
+### 👨‍💻 Developer
+**Mirsaid Abulfatofov (Miri)** - *Technology Enthusiast & Digital Creator*
